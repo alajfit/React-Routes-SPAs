@@ -1,0 +1,39 @@
+{
+  "name": "react-first-touch",
+  "version": "1.0.0",
+  "description": "First touch with react",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack-dev-server --content-base src --inline --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alajfit/react-first-touch.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Alan J. Fitzpatrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alajfit/react-first-touch/issues"
+  },
+  "homepage": "https://github.com/alajfit/react-first-touch#readme",
+  "dependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "*",
+    "babel-plugin-react-html-attrs": "*",
+    "babel-plugin-transform-class-properties": "*",
+    "babel-plugin-transform-decorators-legacy": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "babel-preset-stage-0": "*",
+    "history": "^1.17.0",
+    "react": "*",
+    "react-dom": "*",
+    "react-router": "^2.4.0",
+    "webpack": "*",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
